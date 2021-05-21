@@ -12,7 +12,7 @@ window.onload = function(){
     })
     .then(response => response.json())
     .then ((albums)=>{
-        // console.log(albums);
+        console.log(albums);
         const row =  document.querySelector('.album-row');
       
         for(let i = 0; i< albums.data.length; i++){
